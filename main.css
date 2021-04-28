@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-.nav-left{
+/* .nav-left{
     float:left;
 }
 .nav-right{
+    float:right;
+} */
+
+.navbar-right{
+    margin-left: 0px;
+    margin-right: auto;
     float:right;
 }
