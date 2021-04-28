@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 
-/* .nav-left{
-    float:left;
+body {
+    font-family: "Roboto", sans-serif;
 }
-.nav-right{
-    float:right;
-} */
-
+/* Navbar */
 .navbar-right{
     margin-left: 0px;
     margin-right: auto;
     float:right;
+}
+
+/* Aim Section */
+
+.mun-text{
+    font-family: "Oregano", cursive;
 }
