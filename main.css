@@ -245,3 +245,8 @@ footer  ul{
 footer ul li i:hover{
     color: white;
 }
+.form-div{
+    height: 100vh;
+    width: 100%;
+    background: #eee;
+}
