@@ -69,3 +69,9 @@ body{
 .ach-btn:hover{
     background-color: green;
 }
+
+/* Tabs */
+
+.pills .active{
+    background-color: gray;
+}
