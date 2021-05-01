@@ -70,6 +70,14 @@ nav{
     position: relative;
     right:5%;
 }
+@media only screen and (max-width: 1000px) {
+    .aim-text{
+        margin-left: 5em;
+        padding: 0em;
+        margin-top: -20em;
+    }
+  }
+
 
 .aim-head{
     font-family: "Antonio", sans-serif;
