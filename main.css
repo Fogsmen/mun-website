@@ -16,6 +16,7 @@ body {
 }
 nav{
     z-index: 99;
+    font-family: 'Antonio', sans-serif;
 }
 .mun-text{
     font-family: "Oregano", cursive;
@@ -191,4 +192,10 @@ footer ul li i:hover{
     height: 100vh;
     width: 100%;
     background: #eee;
+}
+.form-div h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+q{
+    font-family: 'Antonio', sans-serif;
 }
