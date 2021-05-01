@@ -351,33 +351,26 @@
             </div>
             <div class="row input-container">
 
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <input type="text" required />
-                            <label>Name</label> 
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input">
-                            <input type="text" required />
-                            <label>Email</label> 
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input" style="float:right;">
-                            <input type="text" required />
-                            <label>Phone Number</label> 
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <textarea required></textarea>
-                            <label>Message</label>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="btn-lrg submit-btn">Send Message</div>
-                    </div>
+                <form id="myForm">
+                    <label>Full Name</label>
+                    <br/>
+                    <input name="full_name" />
+                    <br/>
+                    <label>Email</label>
+                    <br/>
+                    <input name="email" />
+                    <br/>
+                    <label>Phone number</label>
+                    <input name="phone_number">
+                    <br>
+                    <label>Message</label>
+                    <br/>
+                    <textarea name="message">
+                    </textarea>
+                    <br/>
+                    <br/>
+                  </form>
+                  <button class="btn btn-dark" style="width: 35%; margin-left: 12.5em;" onclick="SubForm()">Submit</button>
             </div>
         </div>
     </div>
@@ -424,6 +417,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
     integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
     crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 
 
 </html>
