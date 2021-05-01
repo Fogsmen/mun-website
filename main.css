@@ -77,6 +77,9 @@ nav{
       font-size: 16px;
       top: 60%;
     }
+    .members h3{
+      left: 30%;
+    }
   }
 
 
@@ -178,6 +181,7 @@ nav{
     padding:50px 0;
     color:#eee;
     background-color:#000000;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .footer-dark h3 {
