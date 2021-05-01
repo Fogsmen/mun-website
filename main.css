@@ -50,6 +50,12 @@ width: 100%;
     position: relative;
     right:5%;
 }
+@media only screen and (max-width: 1000px) {
+    .aim-text{
+        margin-left: 5em;
+    }
+  }
+
 
 .aim-head{
     font-family: "Antonio", sans-serif;
