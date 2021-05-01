@@ -1,0 +1,71 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: "Roboto", sans-serif;
+        overflow-x: hidden;
+}
+/* Navbar */
+.navbar-right{
+    margin-left: 0px;
+    margin-right: auto;
+    float:right;
+}
+
+.mun-text{
+    font-family: "Oregano", cursive;
+}
+
+/* Landing Div */
+.head{
+    font-family: "Antonio", sans-serif;
+}
+/* .win-img{
+    height: 100vh;
+    width:100%;
+    background-image: url('assets/winners.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 2em 2em 5em 2em;
+    float: none;
+} */
+
+.win-img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.win-img-img{    
+    height: auto;
+    vertical-align: middle;
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ach-head{
+    padding-top: 5em;
+}
+
+.ach{
+ margin-left: 2em;
+}
+
+.ach-text{
+    font-family: "Merriweather", serif;
+
+}
+
+.ach-btn{
+    padding: 2em;
+}
+
+.ach-btn:hover{
+    background-color: green;
+}

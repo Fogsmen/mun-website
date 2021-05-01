@@ -60,13 +60,15 @@ nav{
   justify-content: center;
   align-items: center;
   height:100vh;
+  padding-left: -2em;
 }
 
 .aim-text{
     height: 100vh;
     padding-top: 10em;
-    margin-left: -4em;
-
+    padding-right: 2em;
+    position: relative;
+    right:5%;
 }
 
 .aim-head{
