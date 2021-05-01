@@ -16,7 +16,7 @@ body {
 }
 nav{
     z-index: 99;
-    font-family: 'Antonio', sans-serif;
+    background: black !important;
 }
 .mun-text{
     font-family: "Oregano", cursive;
@@ -294,7 +294,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 .styled-input {
     float: left;
-    width: 293px;
+    width: 300px;
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
@@ -380,6 +380,7 @@ textarea {
         width:100%;
         float: none;
         text-align:center;
+        margin-bottom: 1rem;
     }
 }
 
