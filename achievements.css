@@ -136,7 +136,7 @@ body{
     width: 11px;
     height: 11px;
     border-radius: 50%;
-    background-color: #343a40;
+    background-color: #007bff;
     content: "";
     top: 50%;
     right: 26px;
@@ -194,12 +194,13 @@ body{
 }
 .single-timeline-area .single-timeline-content:hover .timeline-icon,
 .single-timeline-area .single-timeline-content:focus .timeline-icon {
-    background-color: #ffc107;
+    background-color: tomato
 }
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
     color: #3f43fd;
 }
+
 
 #preloader {
     position: fixed;
@@ -286,3 +287,4 @@ body{
     transition: 2.5s;
     opacity: 0;
   }
+
