@@ -46,28 +46,11 @@ nav{
 }
 /* Aim Section */
 
-.aim-img{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100vh;
-  padding-left: -2em;
-}
-
-.aim-text{
-    height: 100vh;
-    padding-top: 10em;
-    padding-left: 2em;
-    padding-right: 2em;
-    position: relative;
-    right:2.5%;
+#about{
+  font-family: 'Antonio', sans-serif;
+  
 }
 @media only screen and (max-width: 1000px) {
-    .aim-text{
-        margin-left: 5em;
-        padding: 0em;
-        margin-top: -20em;
-    }
     .text h1{
       font-size: 48px;
       left: 15%;
