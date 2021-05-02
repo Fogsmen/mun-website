@@ -489,3 +489,7 @@ footer
   transition: 2.5s;
   opacity: 0;
 }
+
+.feedform label{
+  color: black;
+}
