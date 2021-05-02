@@ -63,11 +63,17 @@ body{
 }
 
 .ach-btn{
-    padding: 2em;
+    padding: 2.5em;
+    background-color: #111;
+    color: #eee;
+    font-family: 'Antonio', sans-serif;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ;
 }
 
 .ach-btn:hover{
-    background-color: green;
+    background-color: tomato;
 }
 
 /* Tabs */

@@ -25,6 +25,7 @@
 
 <body>
     <!-- Navbar -->
+    <header id="content">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 fixed-top" id="nav">
         <button class="navbar-toggler navbar-light" data-toggle="collapse" data-target=".menu">
             <span class="navbar-toggler-icon"></span>
@@ -35,7 +36,7 @@
         <div class="collapse navbar-collapse nav menu">
             <a class="navbar-brand" href="#">
                 <img src="assets/sch-logo.jpg" width="30" height="30" class="d-inline-block align-top">
-                <font class="mun-text">MUN SOCIETY</font>
+                <font>MUN SOCIETY</font>
             </a>
             <div class="collapse navbar-collapse nav"></div>
             <ul class="navbar-nav">
@@ -65,13 +66,13 @@
         </div>
         </div>
     </nav>
+</header>
     <!-- Landing Div -->
     <div class="text">
-        <h1>MUN Society AISG46</h1>
+        <h1>MUN Society Amity46</h1>
         <br>
-        <q class="border-top border-bottom">
-            When the debate is lost <br>
-            slander becomes the tool of loser.
+        <q class="border-bottom border-top">
+            The world is a family
         </q>
     </div>
 
@@ -80,7 +81,32 @@
         <div class="row">
             <div class="col-lg aim-img">
                 <!-- Image -->
-                <img src="assets/mun.jpg" alt="MUN Going On" class="aim-img-img rounded mx-auto d-block img-thumbnail">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270" class="d-block" width="300" height="150" >
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" class="d-block" width="300" height="150">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" class="d-block"width="300" height="150" >
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
             <div class="col-lg aim-text">
                 <!-- About Us & Aim -->
@@ -209,7 +235,7 @@
         </section>
         <br><br>
         <h3>
-            Alumni
+           Our Alumni
         </h3>
         <br>
         <center>
@@ -327,36 +353,28 @@
             </div>
             <div class="row input-container">
 
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <input type="text" required />
-                            <label>Name</label> 
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input">
-                            <input type="text" required />
-                            <label>Email</label> 
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input" style="float:right;">
-                            <input type="text" required />
-                            <label>Phone Number</label> 
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <textarea required></textarea>
-                            <label>Message</label>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="btn-lrg submit-btn">Send Message</div>
-                    </div>
+                <form id="myForm">
+                    <label>Full Name</label>
+                    <br/>
+                    <input name="full_name" />
+                    <br/>
+                    <label>Email</label>
+                    <br/>
+                    <input name="email" />
+                    <br/>
+                    <label>Phone number</label>
+                    <input name="phone_number">
+                    <br>
+                    <label>Message</label>
+                    <br/>
+                    <textarea name="message">
+                    </textarea>
+                    <br/>
+                    <br/>
+                  </form>
+                  <button class="btn btn-dark" style="width: 35%; margin-left: 12.5em;" onclick="SubForm()">Submit</button>
             </div>
         </div>
-
     </div>
 
 <!-- Footer-->
@@ -401,6 +419,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
     integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
     crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 
 
 </html>
