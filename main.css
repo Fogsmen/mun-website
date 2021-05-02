@@ -65,8 +65,17 @@ nav{
 @media only screen and (max-width: 1000px) {
     .aim-text{
         margin-left: 5em;
-        padding: 0em;
-        margin-top: -20em;
+        padding-top: 0px;
+    }
+    .aim-img{
+      padding:0;
+    }
+    body{
+      overflow-x: visible;
+    }
+    .aim{
+      margin-right: auto;
+      margin-left: auto;
     }
     .text h1{
       font-size: 48px;
@@ -92,6 +101,7 @@ nav{
     text-align: justify;
     padding-right: 1em;
 }
+/* Members */
 .members{
     width: 100%;
     background-color: #111;
