@@ -32,8 +32,8 @@ nav{
     font-family: 'Ubuntu', sans-serif;
     font-size: 100px;
     font-weight: 900;
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 25%;
     transform: translate(-30,-30);
 }
 .text q{
