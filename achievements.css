@@ -51,6 +51,7 @@ body{
 
 .ach-head{
     padding-top: 5em;
+    font-size: 1.2em;
 }
 
 .ach{
@@ -59,7 +60,7 @@ body{
 
 .ach-text{
     font-family: "Merriweather", serif;
-
+    font-size: 1.2em;
 }
 
 .ach-btn{
@@ -69,7 +70,7 @@ body{
     font-family: 'Antonio', sans-serif;
     border: none;
     border-radius: 5px;
-    transition: all 0.5s ;
+    transition: all 0.5s ;    
 }
 
 .ach-btn:hover{
