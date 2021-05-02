@@ -46,36 +46,13 @@ nav{
 }
 /* Aim Section */
 
-.aim-img{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100vh;
-  padding-left: -2em;
-}
+#about{
+  font-family: 'Antonio', sans-serif;
 
-.aim-text{
-    height: 100vh;
-    padding-top: 10em;
-    padding-left: 2em;
-    padding-right: 2em;
-    position: relative;
-    right:2.5%;
 }
 @media only screen and (max-width: 1000px) {
-    .aim-text{
-        margin-left: 5em;
-        padding-top: 0px;
-    }
-    .aim-img{
-      padding:0;
-    }
     body{
       overflow-x: visible;
-    }
-    .aim{
-      margin-right: auto;
-      margin-left: auto;
     }
     .text h1{
       font-size: 48px;
