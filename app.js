@@ -1,3 +1,4 @@
+//fetch form data in google sheets
 function SubForm (){
     $.ajax({
         url:'https://api.apispreadsheets.com/data/11720/',
@@ -11,3 +12,4 @@ function SubForm (){
         }
     });
 }
+//loader
