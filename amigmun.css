@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+/* Navbar */
+.navbar-right{
+    margin-left: 0px;
+    margin-right: auto;
+    float:right;
+}
+#nav{
+    z-index: 2.0;
+}
+
+/* nav{
+    z-index: 99;
+    background: black !important;
+} */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: tomato;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:white;
+  }
+
+/* Content */
+
+.soon {
+    color: white;
+    background-color: #292b2c;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
