@@ -24,3 +24,4 @@ window.addEventListener("load", function() {
     preload.style.display = "none";
   }, 5000);
 });
+AOS.init();
