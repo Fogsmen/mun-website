@@ -8,6 +8,25 @@ body{
         font-family: "Roboto", sans-serif;
         overflow-x: hidden;
 }
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: tomato;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:white;
+}
+
 /* Navbar */
 .navbar-right{
     margin-left: 0px;
@@ -289,22 +308,4 @@ body{
     opacity: 0;
   }
 
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #111;
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
