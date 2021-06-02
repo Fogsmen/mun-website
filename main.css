@@ -8,6 +8,26 @@ body {
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: tomato;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:white;
+}
+
 /* Navbar */
 .navbar-right{
     margin-left: 0px;
@@ -95,30 +115,21 @@ nav{
     color: tomato;
     border-radius: 10px;
 }
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #111;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: tomato;
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:white;
-  }
 
 #team .card {
     border: none;
     background: #000;
     color: #eee;
+}
+#alumn .card {
+  border: none;
+  background: #000;
+  color: #eee;
+}
+#ment .card {
+  border: none;
+  background: #000;
+  color: #eee;
 }
 .frontside {
     position: relative;
