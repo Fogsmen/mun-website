@@ -54,16 +54,15 @@ body{
 } */
 
 .win-img{
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
 .win-img-img{    
-    height: auto;
-    vertical-align: middle;
-    width:50%;
+    height: 40%;
+
     margin-right: auto;
     margin-left: auto;
 }
@@ -75,11 +74,12 @@ body{
 
 .ach{
  margin-left: 2em;
+ padding-top: 3.5em;
 }
 
 .ach-text{
     font-family: "Merriweather", serif;
-    font-size: 1.15em;
+    font-size: 0.7em;
 }
 
 .ach-btn{

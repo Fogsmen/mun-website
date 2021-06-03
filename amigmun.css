@@ -14,14 +14,10 @@ body {
     margin-right: auto;
     float:right;
 }
-#nav{
-    z-index: 1000;
-}
 
-/* nav{
+ nav{
     z-index: 99;
-    background: black !important;
-} */
+} 
 
 /* Scrollbar */
 ::-webkit-scrollbar {
