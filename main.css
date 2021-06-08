@@ -106,6 +106,7 @@ nav a {
 /* Members */
 .members{
     width: 100%;
+    background: #171212;
 }
 .members h2{
     position: relative;
@@ -122,29 +123,28 @@ nav a {
 
 #team .card {
     border: none;
-    background: #fff;
+    background: #171212;
     border-radius: 10px;
-    color: #111;
+    color: #eee;
 }
 #alumn .card {
   border-radius: 10px;
-  background: #fff;
-  color: #111;
+  background: #171212;
+  color: #eee;
 }
 #ment .card {
   border: none;
   border-radius: 10px;
-  background: #fff;
-  color: #111;
+  background: #171212;
+  color: #eee;
 }
 .frontside {
     position: relative;
     z-index: 2;
     border-radius: 10px;
-    margin-bottom: 30px;    -webkit-box-shadow: 5px 7px 9px -4px rgba(17, 15, 15,0.1);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(15, 14, 14, rgba(17,15,15,0.1));
-    box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+    margin-bottom: 30px;    
+    box-shadow:  20px 20px 60px #0c0909,
+    -20px -20px 60px #221b1b;
 }
 
 
@@ -219,6 +219,9 @@ nav a {
     .footer-dark .item:not(.social) {
       text-align:center;
       padding-bottom:20px;
+    }
+    .members{
+      padding-top: 30px;
     }
   }
   

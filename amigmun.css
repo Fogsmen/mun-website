@@ -8,37 +8,41 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0AC5A8;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 /* Navbar */
 .navbar-right{
     margin-left: 0px;
     margin-right: auto;
     float:right;
 }
-
- nav{
+nav{
     z-index: 99;
-} 
-
-/* Scrollbar */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #111;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: tomato;
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:white;
-  }
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: white;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0,0.4);
+}
+nav a {
+  color: #0AC5A8 !important;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* Content */
 .intro{
