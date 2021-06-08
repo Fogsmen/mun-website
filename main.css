@@ -15,7 +15,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #eee;
+  background: #fff;
 }
 
 /* Handle */
@@ -40,6 +40,7 @@ nav{
 nav a {
   color: #0AC5A8 !important;
   font-size: 18px;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
 /* Landing Div */
@@ -289,7 +290,6 @@ footer ul li i:hover{
     height: 145vh;
     padding: 4em;
     width: 100%;
-    background: #eee;
 }
 .form-div h1{
     font-family: 'Ubuntu', sans-serif;
@@ -387,7 +387,6 @@ textarea {
         margin-bottom: 1rem;
     }
 }
-
 input[type=checkbox] + label {
   color: #ccc;
   font-style: italic;
