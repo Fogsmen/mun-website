@@ -65,7 +65,8 @@ nav a {
       height: 120vh;
     }
     .landing-div{
-      height: 50vh;
+      height: 100vh;
+      margin-left: -1cm;
     }
   }
 

@@ -71,7 +71,7 @@
     <div class="landing">
         <div class="row">
             <div class="col-sm-7 ach">
-                <div class="ach-head">
+                <div class="ach-head" data-aos-duration="1000" data-aos="zoom-in">
                     <h2 class="head"> OUR ACHIEVEMENTS </h2><br>
                     <p class="ach-text">
                         The MUN society is always active in competitions and we have won accolades in various<br>
@@ -84,7 +84,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos-duration="1000" data-aos="zoom-in">
                 <div class="win-img">
                     <img src="assets/winners.jpg" class="mx-auto d-block win-img-img">
                 </div>
@@ -94,7 +94,7 @@
     <!-- Acheivements -->
     <!-- *TIMELINE; https://www.bootdey.com/snippets/view/timeline-events-area -->
     <!-- Tabs -->
-    <ul class="nav nav-pills p-3 mb-3 justify-content-center " id="pills-tab" role="tablist"
+    <ul class="nav nav-pills p-3 mb-3 justify-content-center " data-aos="fade-up"    data-aos-easing="ease-in-sine" id="pills-tab" role="tablist"
         id="achievements">
         <li class="nav-item">
             <a class="nav-link active" id="pills-2020-tab" data-toggle="pill" href="#pills-2020" role="tab"
@@ -106,7 +106,7 @@
             </a>
         </li>
     </ul>
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content" id="pills-tabContent" data-aos="zoom-out" data-aos-duration="1000">
         <div class="tab-pane fade show active" id="pills-2020" role="tabpanel" aria-labelledby="pills-2020-tab">
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -479,5 +479,7 @@
     integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+<script>
+    AOS.init();
+</script>
 </html>
