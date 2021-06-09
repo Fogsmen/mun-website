@@ -356,12 +356,7 @@ textarea {
 .feedform button{
   background: #0AC5A8 !important;
   padding: 10px;
-  width: 96%;
-}
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
+  width: 60%;
 }
 
 @media (max-width: 768px) {
@@ -379,6 +374,10 @@ textarea {
     }
     .landing-div q{
       margin-bottom: 3cm;
+    }
+    .feedform button{
+      background: #0AC5A8 !important;
+      padding: 10px;
     }
 }
 input[type=checkbox] + label {
