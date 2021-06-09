@@ -25,4 +25,3 @@ window.addEventListener("load", function() {
   }, 5000);
 });
 
-//AOS.init();

@@ -90,18 +90,18 @@
     <!-- Aim Section -->
     <div id="about" class="container-fluid p-5 aim-text" >
         <div class="row" style="margin-top: 1em;">
-            <div class="col-sm-8">
+            <div class="col-sm-8" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="aim-head">ABOUT US</h2><br>
                 <p>The MUN society is a prestigious society founded in 2016. This society is based on spirit of
                     fraternity and stays the same in victory and loss. We believe in diplomacy and team spirit.</p>
                 <br>
-                <h2 class="aim-head">OUR AIM</h2><br>
+                <h2 class="aim-head" >OUR AIM</h2><br>
                 <p>Model United Nations (MUN) is an academic simulation of the United Nations or any committee to
                     educate participants about current affairs, international relations, diplomacy, teamwork &
                     inculcates constructive discussions and solutions. The spirit of society is one of fraternity and we
                     remain the same in both wins and losses</p>
             </div>
-            <div class="col-sm-4 p-3">
+            <div class="col-sm-4 p-3" data-aos="fade-left" data-aos-duration="1000">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -137,7 +137,7 @@
             <hr class="hr">
         </center>
         <br>
-        <section id="team" class="pb-5">
+        <section id="team" data-aos="zoom-out-up" data-aos-duration="1000" class="pb-5">
             <div class="container">
                 <div class="row">
                     <!-- Team member -->
@@ -311,8 +311,8 @@
             <hr>
         </center>
         <br><br>
-        <section id="team" class="pb-5">
-            <div class="container">
+        <section id="team" data-aos="zoom-out-up" data-aos-duration="1000" class="pb-5">
+            <div class="container" >
                 <div class="row">
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -430,7 +430,7 @@
             <hr>
         </center>
         <br><br>
-        <section id="team" class="pb-5">
+        <section id="team" data-aos="zoom-out-up" data-aos-duration="1000" class="pb-5">
             <div class="container">
                 <div class="row">
                     <!-- Team member -->
@@ -502,7 +502,7 @@
         </section>
     </div>
     <!--forms-->
-    <div class="form-div">
+    <div class="form-div" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100">
         <div class="container p-4">
             <div class="row">
 
@@ -532,7 +532,7 @@
                     <br />
                     <br />
                 </form>
-                <button class="btn " style="margin-left: 1.5em;"
+                <button class="btn " style="margin-left: 0.5em;"
                     onclick="SubForm()">Submit</button>
             </div>
         </div>
@@ -589,5 +589,7 @@
     crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+<script>
+    AOS.init();
+</script>
 </html>
