@@ -8,23 +8,21 @@ body{
         font-family: "Roboto", sans-serif;
         overflow-x: hidden;
 }
-/* Scrollbar */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
+
+/* Track */
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: #fff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: tomato;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background:white;
+  background: #0AC5A8;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 /* Navbar */
@@ -33,10 +31,21 @@ body{
     margin-right: auto;
     float:right;
 }
-
-.mun-text{
-    font-family: "Oregano", cursive;
+nav{
+    background-color: white;
+    z-index: 99;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0,0.4);
 }
+nav a {
+  color: #0AC5A8 !important;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 
 /* Landing Div */
 .head{
@@ -54,16 +63,15 @@ body{
 } */
 
 .win-img{
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
 .win-img-img{    
-    height: auto;
-    vertical-align: middle;
-    width:50%;
+    height: 40%;
+
     margin-right: auto;
     margin-left: auto;
 }
@@ -75,11 +83,12 @@ body{
 
 .ach{
  margin-left: 2em;
+ padding-top: 3.5em;
 }
 
 .ach-text{
     font-family: "Merriweather", serif;
-    font-size: 1.15em;
+    font-size: 0.7em;
 }
 
 .ach-btn{
@@ -101,7 +110,13 @@ body{
 .pills .active{
     background-color: gray;
 }
-
+.nav-pills{
+  background-color: #eee !important;
+}
+.btn-dark:hover{
+  background-color: #0AC5A8 !important;
+  border-color: #0AC5A8 !important;
+}
 /* Timeline */
 .timeline_area {
     position: relative;
@@ -139,6 +154,13 @@ body{
 @media only screen and (max-width: 575px) {
     .single-timeline-area .timeline-date {
         width: 100px;
+    }
+    .ach-text{
+      font-size:0.8em;
+      margin-left: -15px;
+    }
+    nav{
+      width: 100%;
     }
 }
 .single-timeline-area .timeline-date::after {

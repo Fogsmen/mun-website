@@ -9,37 +9,41 @@ body{
         overflow-x: hidden;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
   }
-
-::-webkit-scrollbar-track {
-    background: #111;
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: tomato;
-    border-radius: 10px;
+    background: #0AC5A8;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:white;
+  /* Navbar */
+  .navbar-right{
+      margin-left: 0px;
+      margin-right: auto;
+      float:right;
   }
-
-/* Navbar */
-.navbar-right{
-    margin-left: 0px;
-    margin-right: auto;
-    float:right;
-}
-
-.mun-text{
-    font-family: "Oregano", cursive;
-}
-
+  nav{
+      z-index: 99;
+      border-bottom-left-radius: 10px;
+      background-color: white;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0 0 3px 3px rgba(0, 0, 0,0.4);
+  }
+  nav a {
+    color: #0AC5A8 !important;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
 
 /* Landing Div */
 .head{
@@ -63,7 +67,7 @@ body{
 }
 
 .ach-head{
-    padding-top: 5em;
+    padding-top: 12.5em;
     font-size: 1.2em;
 }
 
@@ -87,7 +91,7 @@ body{
 
 .hr {
     border-radius: 20px;
-    color: tomato;
+    color: #0AC5A8;
     width: 35%;
     height: 1em;
 }

@@ -7,6 +7,7 @@
 body {
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
+    background-color: #eee;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -14,18 +15,14 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: #fff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: tomato;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background:white;
+  background: #0AC5A8;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 /* Navbar */
@@ -36,61 +33,47 @@ body {
 }
 nav{
     z-index: 99;
-    background: black !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0,0.4);
 }
-
+nav a {
+  color: #0AC5A8 !important;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
 /* Landing Div */
-.text{
+.landing-div{
   width: 100%;
 	height: 100vh;
-	background:  url('https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&h=750&w') no-repeat;
-  background-size: cover;
+  font-family: 'Monsterrat', sans-serif;
+  padding-top: 20em;
 }
-.text h1{
-    position: absolute;
-    color: #eee;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 100px;
-    font-weight: 900;
-    top: 25%;
-    left: 25%;
-    transform: translate(-30,-30);
-}
-.text q{
-    position: absolute;
-    color: #eee;
-    top:65%;
-    text-align: right;
-    left: 57.5%;
-    font-size: 24px;
-}
+
 /* Aim Section */
 
 #about{
   font-family: 'Antonio', sans-serif;
-
+  height: 80vh;
 }
 @media only screen and (max-width: 1000px) {
-    body{
-      overflow-x: visible;
-    }
-    .text h1{
-      font-size: 48px;
-      left: 15%;
-      top: 45%;
-    }
-    .text q{
-      font-size: 16px;
-      top: 60%;
-    }
     .members h3{
       left: 30%;
+    }
+    #about{
+      height: 120vh;
+    }
+    .landing-div{
+      height: 100vh;
+      margin-left: -1cm;
     }
   }
 
 
 .aim-head{
     font-family: "Antonio", sans-serif;
+    margin-top: 0.5em;
 }
 
 .aim-text p {
@@ -101,42 +84,45 @@ nav{
 /* Members */
 .members{
     width: 100%;
-    background-color: #111;
+    background: #171212;
 }
 .members h2{
     position: relative;
     left: 42.5%;
-    color: #eee;
+    color: #0AC5A8;
     font-family: 'Ubuntu', sans-serif;
 }
 .members hr{
     width: 35%;
     height: 1em;
-    color: tomato;
+    color: #0AC5A8;
     border-radius: 10px;
 }
 
 #team .card {
     border: none;
-    background: #000;
+    background: #171212;
+    border-radius: 10px;
     color: #eee;
 }
 #alumn .card {
-  border: none;
-  background: #000;
+  border-radius: 10px;
+  background: #171212;
   color: #eee;
 }
 #ment .card {
   border: none;
-  background: #000;
+  border-radius: 10px;
+  background: #171212;
   color: #eee;
 }
 .frontside {
     position: relative;
     z-index: 2;
-    margin-bottom: 30px;    -webkit-box-shadow: 5px 7px 9px -4px rgb(17, 15, 15);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(15, 14, 14);
-    box-shadow: 5px 7px 9px -4px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 30px;    
+    box-shadow:  20px 20px 60px #0c0909,
+    -20px -20px 60px #221b1b;
 }
 
 
@@ -161,7 +147,7 @@ nav{
     min-height: 312px;
 }
 .frontside .card .card-title {
-    color: tomato !important;
+    color: #0AC5A8 !important;
 }
 
 .frontside .card .card-body img {
@@ -170,10 +156,19 @@ nav{
     border-radius: 50%;
 }
 .members h3{
-    color: #eee;
+    color: #0AC5A8;
     position: relative;
     left: 45%;
     font-family: 'Ubuntu', sans-serif;
+}
+.members h4{
+  color: #eee;
+  position: relative;
+  
+}.members .h4{
+  color: #eee;
+  position: relative;
+  left: 10%;
 }
 .footer-dark {
     padding:50px 0;
@@ -211,6 +206,9 @@ nav{
     .footer-dark .item:not(.social) {
       text-align:center;
       padding-bottom:20px;
+    }
+    .members{
+      padding-top: 30px;
     }
   }
   
@@ -282,7 +280,6 @@ footer ul li i:hover{
     height: 145vh;
     padding: 4em;
     width: 100%;
-    background: #eee;
 }
 .form-div h1{
     font-family: 'Ubuntu', sans-serif;
@@ -366,10 +363,10 @@ textarea {
     max-width: 100%;
     margin: 20px auto 25px auto;
 }
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
+.feedform button{
+  background: #0AC5A8 !important;
+  padding: 10px;
+  width: 96%;
 }
 
 @media (max-width: 768px) {
@@ -378,9 +375,22 @@ textarea {
         float: none;
         text-align:center;
         margin-bottom: 1rem;
+        margin-left: -1cm;
+    }
+    .feedform button{
+      background: #0AC5A8 !important;
+      padding: 10px;
+      border-radius: 10px;
+      width: 90%;
+    }
+    .landing-div q{
+      margin-bottom: 3cm;
+    }
+    .feedform button{
+      background: #0AC5A8 !important;
+      padding: 10px;
     }
 }
-
 input[type=checkbox] + label {
   color: #ccc;
   font-style: italic;
@@ -503,4 +513,19 @@ footer
 
 .feedform label{
   color: black;
+}
+.fa:hover{
+  transition: 0.1s;
+  color: #0AC5A8;
+}
+.landing-div h1{
+  margin-left: 2cm;
+  margin-bottom: 0.5cm;
+}
+.landing-div q {
+  float: right;
+  margin-right: 2cm;
+}
+.landing-div img{
+  margin-top: -3cm;
 }
