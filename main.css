@@ -48,10 +48,20 @@ nav a {
   width: 100vw;
 	height: 100vh;
   background: url("https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&h=750&w") no-repeat;
+  background-size: cover;
   font-family: 'Monsterrat', sans-serif;
   padding-top: 20em;
+  color:  white;
+  font-family: 'Ubuntu', sans-serif;
 }
-
+.text h1{
+  font-size: 48px;
+  font-weight:600 ;
+  padding-left: 10rem;
+}
+.text .q{
+  padding-right: 10rem;
+}
 /* Aim Section */
 
 #about{
@@ -68,6 +78,15 @@ nav a {
     .landing-div{
       height: 100vh;
       margin-left: -1cm;
+    }
+    .landing-div{
+      width: 125%;
+    }
+    .text h1{
+      padding-left: 1rem;
+    }
+    .text .q{
+      padding-right: 0rem;
     }
   }
 
@@ -108,13 +127,13 @@ nav a {
 }
 #alumn .card {
   border-radius: 10px;
-  background: #171212;
+  background: #171212 !important;
   color: #eee;
 }
 #ment .card {
   border: none;
   border-radius: 10px;
-  background: #171212;
+  background: #171212 !important;
   color: #eee;
 }
 .frontside {
