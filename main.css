@@ -45,8 +45,9 @@ nav a {
 }
 /* Landing Div */
 .landing-div{
-  width: 100%;
+  width: 100vw;
 	height: 100vh;
+  background: url("https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&h=750&w") no-repeat;
   font-family: 'Monsterrat', sans-serif;
   padding-top: 20em;
 }
