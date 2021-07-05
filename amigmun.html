@@ -64,10 +64,19 @@
     </header>
     <br><br><br>
     <!-- Body-->
-        <div class="intro">
-            <h1>
-                COMING SOON! STAY TUNED
-            </h1>
+        <div class="intro" data-aos="fade-up" data-aos-duration="1000">
+            <div class="counter ">
+                <h1>
+                    COMING SOON! STAY TUNED
+                </h1>
+                <div id="countdown">
+                    <ul>
+                        <li><span id="days"></span> <br> Days</li>
+                        <li><span id="hours"></span> <br> Hours</li>
+                        <li><span id="minutes"></span> <br> Minutes</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="animation-area">
             <ul class="box-area">
@@ -79,9 +88,18 @@
                 <li></li>
             </ul>
         </div>
-    
     </header>
-    <div class="gallery bg-dark text-center pt-5" >
+    <div class="container-fluid book">
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="text">
+            </div>
+            <div class="col-sm-6">
+                <button><i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="gallery bg-dark text-center pt-5"  data-aos="zoom-in" data-aos-duration="1000">
         <h3>Gallery</h3>
         <center>
             <br>
@@ -152,7 +170,4 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script src="amigmun.js"></script>
-<script>
-    AOS.init();
-</script>
 </html>

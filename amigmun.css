@@ -148,3 +148,25 @@ animation-area {
 	color: #0AC5A8;
 	width: 30%;
 }
+.counter{
+	height: 60vh;
+	color: #eee;
+}
+.counter h1{
+	padding-top: 10rem;
+}
+.counter small{
+	margin-bottom: 2.5rem;
+}
+#countdown ul{
+	list-style-type: none;
+	display: flex;
+	margin-left: 17.5rem;
+	margin-top: 5rem;
+}
+#countdown ul li{
+	margin-left: 1rem;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 800;
+}
