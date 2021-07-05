@@ -413,6 +413,15 @@ textarea {
       background: #0AC5A8 !important;
       padding: 10px;
     }
+    form input, form textarea{
+      width:150%;
+      margin-left: -2rem;
+      margin-top: 10px;
+    }
+    form label{
+      margin-left: -2rem;
+      font-size: 20px;
+    }
 }
 input[type=checkbox] + label {
   color: #ccc;
