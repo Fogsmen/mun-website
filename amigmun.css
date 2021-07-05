@@ -170,3 +170,27 @@ animation-area {
 	font-size: 35px;
 	font-weight: 800;
 }
+.book{
+	padding: 2.5rem;
+	background: rgba(0, 0, 0,0.4);
+	color: #eee;
+}
+.book input{
+	padding:20px;
+	border:none;
+	border-radius: 50px;
+	margin-left: 22.5rem;
+	width: 50vh;
+}
+.book button{
+	border: none;
+	border-radius:100%;
+	padding: 15px;
+	background:#111;
+	color: #eee;
+	cursor: pointer;
+	margin-left:-60px;
+}
+.book input:active{
+	border: none;
+}
