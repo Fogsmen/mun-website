@@ -213,3 +213,9 @@ animation-area {
 .book input:active{
 	border: none;
 }
+#myExcelDiv{
+	margin-left: 15rem;
+	margin-top: 10rem;
+	width: 90vh;
+	height: 80vh;
+}
