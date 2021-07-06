@@ -175,6 +175,25 @@ animation-area {
 	background: rgba(0, 0, 0,0.4);
 	color: #eee;
 }
+.book hr{
+	width: 25%;
+}
+.book legend{
+	margin-top: 4rem;
+	margin-left: 22.5rem;
+	margin-bottom: 2.5rem;
+}
+.book a{
+	text-decoration: none;
+	background: #111;
+	color: #eee;
+	padding:15px;
+	border-radius:10px;
+	margin-left: 30em;
+}
+.book a:hover{
+	color:#eee;
+}
 .book input{
 	padding:20px;
 	border:none;
