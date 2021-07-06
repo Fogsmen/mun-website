@@ -161,7 +161,7 @@ animation-area {
 #countdown ul{
 	list-style-type: none;
 	display: flex;
-	margin-left: 17.5rem;
+	margin-left: 15rem;
 	margin-top: 5rem;
 }
 #countdown ul li{
