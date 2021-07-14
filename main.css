@@ -167,7 +167,7 @@ nav a {
 }
 
 .frontside .card {
-    min-height: 312px;
+    /* min-height: 312px; */
 }
 .frontside .card .card-title {
     color: #0AC5A8 !important;
