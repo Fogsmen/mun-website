@@ -135,6 +135,23 @@ animation-area {
 	}
 }
 
+.committees h1{
+	margin-top: 5rem;
+	margin-left: 5rem;
+}
+.committees .row{
+	margin-top: 10rem;
+}
+.committees .row .card {
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.committees .row .card:hover {
+	border: 2px solid #111;
+}
 @media (max-width:768px){
   .intro h1{
     font-size: 50px;
