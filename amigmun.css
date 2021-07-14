@@ -141,7 +141,6 @@ animation-area {
   }
 }
 .gallery{
-	height: 100vh;
 	color: white;
 }
 .gallery hr{
@@ -214,8 +213,23 @@ animation-area {
 	border: none;
 }
 #myExcelDiv{
-	margin-left: 15rem;
-	margin-top: 10rem;
-	width: 90vh;
-	height: 80vh;
+	margin-left: auto;
+	margin-top: auto;
+	/* width: 90vh; */
+	height: 80vh; 
+}
+/* Grid */
+
+
+.flex-column {
+	max-width: 260px;
+}
+
+img {
+	margin: 5px;
+}
+
+.scale {
+	transform: scaleY(1.05);
+	padding-top: 5px; 
 }
