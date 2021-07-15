@@ -1,5 +1,8 @@
 AOS.init();
-window.alert('Reade the Secretary General Message');
+$(document).ready(function(){
+  $("#myModal").modal('show');
+});
+
 //timer
 
 (function () {
