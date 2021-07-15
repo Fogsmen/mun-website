@@ -1,5 +1,5 @@
 AOS.init();
-
+window.alert('Reade the Secretary General Message');
 //timer
 
 (function () {
