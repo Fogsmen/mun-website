@@ -257,3 +257,8 @@ img {
 	transform: scaleY(1.05);
 	padding-top: 5px; 
 }
+
+/* Sec Gen msg */
+.msg{
+    width: 100%;
+}
